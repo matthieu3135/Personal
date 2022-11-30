@@ -20,8 +20,8 @@ pop_up.click()
 
 #Connect with good authentification
 sleep(2)
-username = "matthieu.pouvreau8@orange.fr"
-pwd = "m9p101.E"
+username = ""  #to put
+pwd = ""  #to put
 
 User = driver.find_element("xpath", """//*[@id="loginForm"]/div/div[1]/div/label/input""")
 User.send_keys(username)
